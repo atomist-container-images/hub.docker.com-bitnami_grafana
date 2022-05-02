@@ -1,12 +1,24 @@
-# Tags: latest, 8.5.1-debian-10-r0, 8.5.1, 8-debian-10, 8
+# Tags: latest, 8.5.1-debian-10-r4, 8.5.1, 8-debian-10, 8
 FROM bitnami/grafana:latest
-FROM bitnami/grafana:8.5.1-debian-10-r0
+FROM bitnami/grafana:8.5.1-debian-10-r4
 FROM bitnami/grafana:8.5.1
 FROM bitnami/grafana:8-debian-10
 FROM bitnami/grafana:8
 
 # Tags: _
 FROM bitnami/grafana:_
+
+# Tags: 8.5.1-debian-10-r3
+FROM bitnami/grafana:8.5.1-debian-10-r3
+
+# Tags: 8.5.1-debian-10-r2
+FROM bitnami/grafana:8.5.1-debian-10-r2
+
+# Tags: 8.5.1-debian-10-r1
+FROM bitnami/grafana:8.5.1-debian-10-r1
+
+# Tags: 8.5.1-debian-10-r0
+FROM bitnami/grafana:8.5.1-debian-10-r0
 
 # Tags: 8.5.0-debian-10-r6, 8.5.0
 FROM bitnami/grafana:8.5.0-debian-10-r6
@@ -92,16 +104,3 @@ FROM bitnami/grafana:8.4.5-debian-10-r3
 
 # Tags: 8.4.5-debian-10-r2
 FROM bitnami/grafana:8.4.5-debian-10-r2
-
-# Tags: 8.4.5-debian-10-r1
-FROM bitnami/grafana:8.4.5-debian-10-r1
-
-# Tags: 8.4.5-debian-10-r0
-FROM bitnami/grafana:8.4.5-debian-10-r0
-
-# Tags: 8.4.4-debian-10-r13, 8.4.4
-FROM bitnami/grafana:8.4.4-debian-10-r13
-FROM bitnami/grafana:8.4.4
-
-# Tags: 8.4.4-debian-10-r12
-FROM bitnami/grafana:8.4.4-debian-10-r12
