@@ -101,6 +101,3 @@ FROM bitnami/grafana:8.4.5-debian-10-r4
 
 # Tags: 8.4.5-debian-10-r3
 FROM bitnami/grafana:8.4.5-debian-10-r3
-
-# Tags: 8.4.5-debian-10-r2
-FROM bitnami/grafana:8.4.5-debian-10-r2
